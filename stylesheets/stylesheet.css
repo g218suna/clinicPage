@@ -1,0 +1,637 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*responsive*/
+
+@media screen and (min-width:1920px) {
+    /*body*/
+    body {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    /*main*/
+    /*top-content*/
+    .top-image {
+        width: 1920px;
+        height: 947px;
+        z-index: 1;
+        background-image: url(../images/fv@2x.png);
+        background-size: contain;
+    }
+    .top-heading {
+        width: 28px;
+        font-size: 28px;
+        display: flex;
+        flex-direction: row;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        -ms-writing-mode: vertical-rl;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 133px;
+        z-index: 2;
+    }
+    .top-left {
+        height: 479px;
+        padding: 20px 37px 66px 37px;
+        left: 211px;
+    }
+    .top-right {
+        height: 445px;
+        padding: 20px 37px 100px 37px;
+        left: 393px;
+    }
+    /*treatment-content*/
+    .treatment-content {
+        width: 100%;
+        height: 1520px;
+        position: relative;
+        margin: 0 auto;
+        background-color: #F5FCF8;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    /*body*/
+    body {
+        width: 1180px;
+        margin: 0 auto;
+    }
+    /*main*/
+    /*top-content*/
+    .top-image {
+        width: 1180px;
+        height: 582px;
+        z-index: 1;
+        background-image: url(../images/fv.png);
+        background-size: contain;
+    }
+    .top-heading {
+        width: 17px;
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        -ms-writing-mode: vertical-rl;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 82px;
+        z-index: 2;
+    }
+    .top-left {
+        height: 294px;
+        padding: 12.3px 22.7px 40.5px 22.7px;
+        left: 129.7px;
+    }
+    .top-right {
+        height: 273.4px;
+        padding: 12.3px 22.7px 61.4px 22.7px;
+        left: 241.5px;
+    }
+    /*treatment-content*/
+    .treatment-content {
+        width: 1180px;
+        height: 1520px;
+        position: relative;
+        margin: 0 auto;
+        background-color: #F5FCF8;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:375px) {
+    body {
+        min-width: 375px;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 130px;
+}
+
+.header-main {
+    width: 1180px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-logo {
+    float: left;
+    width: 263px;
+    height: 80px;
+    margin: 23px 0 27px 20px;
+}
+
+.header-right {
+    width: 290px;
+    height: 60px;
+    margin: 34px 0 36px 0;
+    float: right;
+}
+
+.header-time {
+    width: 290px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.header-phone {
+    margin-top: 9px;
+    display: flex;
+    float: right;
+}
+
+.phone-logo {
+    width: 24px;
+    height: 24px;
+    margin: 8px 4px 0 0;
+}
+
+.phone-number {
+    width: 171px;
+    height: 32px;
+    font-size: 23px;
+    color: #21A937;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*main*/
+
+
+/*top-content*/
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.top-content {
+    width: 100%;
+    max-height: 947px;
+    position: relative;
+    z-index: 0;
+}
+
+.heading-green {
+    color: #21A937;
+}
+
+
+/*belief-content*/
+
+.belief-image {
+    width: 690px;
+    height: 420px;
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    top: 162px;
+    left: 0px;
+}
+
+.belief-content {
+    width: 1180px;
+    height: 664px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.belief-text1 {
+    width: 276px;
+    height: 32px;
+    font-size: 22px;
+    position: relative;
+    z-index: 4;
+    top: 195px;
+    left: 53px;
+}
+
+.belief-underline1 {
+    width: 276px;
+    height: 10px;
+    background-color: #99E5A5;
+    position: relative;
+    z-index: 3;
+    top: 186px;
+    left: 31px;
+}
+
+.belief-text2 {
+    width: 216px;
+    height: 32px;
+    font-size: 22px;
+    position: relative;
+    z-index: 4;
+    top: 220px;
+    left: 31px;
+}
+
+.belief-underline2 {
+    width: 216px;
+    height: 10px;
+    background-color: #99E5A5;
+    position: relative;
+    z-index: 3;
+    top: 211px;
+    left: 31px;
+}
+
+.belief-text3 {
+    width: 364px;
+    height: 135px;
+    font-size: 14px;
+    line-height: 36px;
+    position: relative;
+    top: 250px;
+    left: 31px;
+}
+
+
+/*treatment-content*/
+
+.treatment-main {
+    width: 1180px;
+    height: 1520px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.treatment-title {
+    width: 96px;
+    height: 32px;
+    font-size: 24px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    z-index: 4;
+}
+
+.treatment-underline {
+    width: 103px;
+    height: 10px;
+    background-color: #99E5A5;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    top: 74.5px;
+}
+
+.treatment-consultation {
+    width: 390px;
+    height: 21px;
+    font-size: 14px;
+    margin: 0 auto;
+    position: relative;
+    top: 143px;
+}
+
+.disease {
+    width: 1180px;
+    height: 591px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 178px;
+}
+
+.disease-box {
+    width: 376px;
+    height: 587px;
+    border: 2px solid #C9C9C9;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cardiovascular {
+    margin: 0 20px;
+}
+
+.disease-title {
+    width: 192px;
+    height: 32px;
+    font-size: 24px;
+    margin: 42px 97px 48px 97px;
+}
+
+.disease-example1 {
+    width: 280px;
+    height: 173px;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0 69px 109px 31px;
+}
+
+.disease-example2 {
+    width: 283px;
+    height: 97px;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0 59px 184px 38px;
+}
+
+.disease-example3 {
+    width: 303px;
+    height: 211px;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0 49px 71px 28px;
+}
+
+.disease-image {
+    width: 187px;
+    height: 187px;
+    margin: 0 96px 0 97px;
+}
+
+.news-title {
+    width: 96px;
+    height: 32px;
+    font-size: 24px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+    top: 261px;
+}
+
+.news-underline {
+    width: 103px;
+    height: 10px;
+    background-color: #99E5A5;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    top: 255.5px;
+}
+
+.news-lists {
+    width: 1180px;
+    min-height: 359.5px;
+    position: relative;
+    top: 322px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px 0 #D6D6D6;
+    padding-top: 30.5px;
+}
+
+.news {
+    width: 1048px;
+    height: 62px;
+    border-bottom: 2px solid #E7E7E7;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.news-date {
+    width: 82px;
+    height: 21px;
+    color: #21A937;
+    font-size: 16px;
+}
+
+.news-genre {
+    width: 80px;
+    height: 25px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 30px 0 34px;
+}
+
+.news-caption {
+    max-width: 1048px;
+    height: 21px;
+    font-size: 14px;
+}
+
+.news-bottom {
+    width: 100%;
+    height: 109.5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.all-view {
+    width: 70px;
+    height: 21px;
+    font-size: 14px;
+    margin-top: 41.5px;
+    margin-bottom: 47px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.arrow-link {
+    width: 15px;
+    height: 15px;
+    margin: 45px 48.5px 49.5px 18.5px;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 799px;
+}
+
+.footer-main {
+    width: 1180px;
+    height: 799px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-map {
+    width: 608px;
+    height: 440px;
+    margin: 196px 0 163px 0;
+}
+
+.footer-info {
+    width: 572px;
+    height: 398.5px;
+    margin: 190px 0 173px 0;
+}
+
+.footer-logo {
+    width: 263px;
+    height: 80px;
+    margin: 0 0 0 34px;
+}
+
+.footer-place {
+    font-size: 16px;
+    display: flex;
+    margin: 26px 0 28px 34px;
+}
+
+.footer-address {
+    margin-left: 13px;
+}
+
+.footer-phone {
+    display: flex;
+    margin: 0 0 0 38.5px;
+}
+
+.footer-schedule {
+    width: 533px;
+    height: 182px;
+    border-top: 2px solid #E7E7E7;
+    border-bottom: 2px solid #E7E7E7;
+    margin: 29.5px 0 22.5px 38.5px;
+    display: flex;
+}
+
+.schedule-head {
+    width: 86.5px;
+    height: 182px;
+}
+
+.schedule-date {
+    width: 56px;
+    height: 19px;
+    font-size: 14px;
+    padding: 3.5px 28.5px 72.5px 0;
+    margin-top: 19px;
+    border-right: 2px solid #E7E7E7;
+}
+
+.schedule-close {
+    width: 42px;
+    height: 19px;
+    font-size: 14px;
+    padding: 5.5px 42.5px 4.5px 0;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    border-right: 2px solid #E7E7E7;
+}
+
+.schedule-detail {
+    width: 446.5px;
+    height: 182px;
+}
+
+.detail-date {
+    width: 291px;
+    height: 85px;
+    margin: 22.5px 129px 0 28.5px;
+    display: flex;
+}
+
+.schedule-day {
+    position: relative;
+}
+
+.schedule-mornig {
+    margin: 0 18px 0 30px;
+}
+
+.day {
+    width: 35px;
+    height: 19px;
+    font-size: 11px;
+    position: relative;
+    z-index: 4;
+}
+
+.day-underline {
+    width: 42px;
+    height: 4px;
+    background-color: #99E5A5;
+    position: relative;
+    z-index: 3;
+}
+
+.line1 {
+    top: -8px;
+}
+
+.line2 {
+    top: -22px;
+}
+
+.line3 {
+    top: -8px;
+}
+
+.morning {
+    width: 100px;
+    height: 19px;
+    font-size: 13px;
+}
+
+.afternoon {
+    width: 108px;
+    height: 19px;
+    font-size: 13px;
+}
+
+.middle {
+    margin: 14px 0 14px 0;
+}
+
+.detail-close {
+    width: 63px;
+    height: 19px;
+    font-size: 12px;
+    margin: 32px 357px 23.5px 28.5px;
+}
+
+.footer-copyright {
+    width: 263px;
+    height: 15px;
+    font-size: 11px;
+    float: right;
+}
