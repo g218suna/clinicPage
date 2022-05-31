@@ -1,0 +1,922 @@
+/*responsive*/
+
+@media screen and (min-width:1920px) {
+
+    /*body*/
+    body {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    /*----------------------------------------------------*/
+    /*main*/
+    /*top-content*/
+    .top-content {
+        width: 100%;
+        height: 947px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-image {
+        width: 1920px;
+        height: 947px;
+        z-index: 1;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .top-heading {
+        width: 28px;
+        font-size: 28px;
+        display: flex;
+        flex-direction: row;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        -ms-writing-mode: vertical-rl;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 133px;
+        z-index: 2;
+    }
+
+    .top-left {
+        height: 479px;
+        padding: 20px 37px 66px 37px;
+        left: 211px;
+    }
+
+    .top-right {
+        height: 445px;
+        padding: 20px 37px 100px 37px;
+        left: 393px;
+    }
+}
+
+/*----------------------------------------------------*/
+/* 1180px ~ */
+@media screen and (min-width:1180px) {
+
+    /*----------------------------------------------------*/
+    /*header*/
+    header {
+        width: 100%;
+        height: 130px;
+    }
+
+    .header-main {
+        width: 1180px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .header-logo {
+        float: left;
+        width: 288px;
+        height: 80px;
+        margin: 23px 0 27px 20px;
+        background-image: url(../images/グループ\ 1@2x.png);
+        background-size: contain;
+    }
+
+    .header-right {
+        width: 290px;
+        height: 60px;
+        margin: 34px 0 36px 0;
+        float: right;
+    }
+
+    .header-time {
+        width: 290px;
+        height: 19px;
+        line-height: 19px;
+        font-size: 14px;
+    }
+    
+    .header-phone {
+        margin-top: 9px;
+        display: flex;
+        float: right;
+    }
+    
+    .phone-logo {
+        width: 24px;
+        height: 24px;
+        margin: 8px 4px 0 0;
+    }
+    
+    .phone-number {
+        width: 171px;
+        height: 32px;
+        font-size: 23px;
+        color: #21A937;
+    }
+
+    /*----------------------------------------------------*/
+    /*belief-content*/
+    .belief-content {
+        width: 100%;
+        height: 664px;
+        position: relative;
+    }
+
+    .belief-main {
+        width: 1180px;
+        height: 664px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .belief-image {
+        width: 690px;
+        height: 420px;
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        top: 162px;
+        left: 0px;
+    }
+
+    .belief-text1 {
+        width: 276px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 195px;
+        left: 53px;
+    }
+    
+    .belief-underline1 {
+        width: 276px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 186px;
+        left: 31px;
+    }
+    
+    .belief-text2 {
+        width: 216px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 220px;
+        left: 31px;
+    }
+    
+    .belief-underline2 {
+        width: 216px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 211px;
+        left: 31px;
+    }
+    
+    .belief-text3 {
+        width: 364px;
+        height: 135px;
+        font-size: 14px;
+        line-height: 36px;
+        position: relative;
+        top: 250px;
+        left: 31px;
+    }
+
+    /*----------------------------------------------------*/
+    /*treatment-content*/
+    .treatment-content {
+        width: 100%;
+        height: auto;
+        min-height: 1520px;
+        position: relative;
+        background-color: #F5FCF8;
+    }
+
+    .treatment-main {
+        width: 1180px;
+        height: auto;
+        min-height: 1520px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+
+    .treatment-title {
+        width: 96px;
+        height: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+        z-index: 4;
+    }
+
+    .treatment-underline {
+        width: 103px;
+        height: 10px;
+        background-color: #99E5A5;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+        top: 74.5px;
+    }
+
+    .treatment-consultation {
+        width: 390px;
+        height: 21px;
+        font-size: 14px;
+        margin: 0 auto;
+        position: relative;
+        top: 143px;
+    }
+
+    .disease {
+        width: 1180px;
+        height: 591px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 178px;
+    }
+
+    .disease-box {
+        width: 376px;
+        height: 587px;
+        border: 2px solid #C9C9C9;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .cardiovascular {
+        margin: 0 20px;
+    }
+
+    .news-title {
+        width: 96px;
+        height: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 4;
+        top: 261px;
+    }
+
+    .news-underline {
+        width: 103px;
+        height: 10px;
+        background-color: #99E5A5;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+        top: 255.5px;
+    }
+
+    .news-lists {
+        width: 1180px;
+        min-height: 359.5px;
+        position: relative;
+        top: 322px;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 3px 6px 0 #D6D6D6;
+        padding-top: 30.5px;
+        margin-bottom: 112px;
+    }
+
+    .news {
+        width: 1048px;
+        height: 62px;
+        border-bottom: 2px solid #E7E7E7;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .news-caption {
+        max-width: 1048px;
+        height: 21px;
+        font-size: 14px;
+    }
+
+    /*----------------------------------------------------*/
+    /*footer*/
+    footer {
+        width: 100%;
+        height: 799px;
+    }
+
+    .footer-main {
+        width: 1180px;
+        height: 799px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .footer-map {
+        width: 608px;
+        height: 440px;
+        margin: 196px 0 163px 0;
+    }
+
+    .footer-info {
+        width: 572px;
+        height: 398.5px;
+        margin: 190px 0 173px 0;
+    }
+
+    .footer-logo {
+        width: 288px;
+        height: 80px;
+        margin: 0 0 0 34px;
+        background-image: url(../images/グループ\ 1@2x.png);
+        background-size: contain;
+    }
+}
+
+/*----------------------------------------------------*/
+
+
+@media screen and (max-width:1919px) and (min-width:1180px) {
+
+    /*body*/
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*----------------------------------------------------*/
+    /*main*/
+    /*top-content*/
+    .top-content {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-image {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+    }
+
+    .top-heading {
+        width: 17px;
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        -ms-writing-mode: vertical-rl;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 82px;
+        z-index: 2;
+    }
+
+    .top-left {
+        height: 294px;
+        padding: 12.3px 22.7px 40.5px 22.7px;
+        left: 129.7px;
+    }
+
+    .top-right {
+        height: 273.4px;
+        padding: 12.3px 22.7px 61.4px 22.7px;
+        left: 241.5px;
+    }
+}
+
+/*----------------------------------------------------*/
+@media screen and (max-width:1180px) and (min-width:1024px) {
+
+    /*body*/
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*----------------------------------------------------*/
+    /*header*/
+    header {
+        width: 100%;
+        height: 130px;
+    }
+
+    .header-main {
+        width: 1024px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+
+    .header-logo {
+        float: left;
+        width: 288px;
+        height: 80px;
+        margin: 23px 0 27px 20px;
+        background-image: url(../images/グループ\ 1@2x.png);
+        background-size: contain;
+    }
+
+    .header-right {
+        width: 290px;
+        height: 60px;
+        margin: 34px 0 36px 0;
+        float: right;
+    }
+
+    .header-time {
+        width: 290px;
+        height: 19px;
+        line-height: 19px;
+        font-size: 14px;
+    }
+    
+    .header-phone {
+        margin-top: 9px;
+        display: flex;
+        float: right;
+    }
+    
+    .phone-logo {
+        width: 24px;
+        height: 24px;
+        margin: 8px 4px 0 0;
+    }
+    
+    .phone-number {
+        width: 171px;
+        height: 32px;
+        font-size: 23px;
+        color: #21A937;
+    }
+
+    /*----------------------------------------------------*/
+    /*main*/
+    /*top-content*/
+    .top-content {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-image {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+    }
+
+    .top-heading {
+        width: 15px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        -ms-writing-mode: vertical-rl;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 71px;
+        z-index: 2;
+    }
+
+    .top-left {
+        height: 255.5px;
+        padding: 10.6px 19.7px 35.2px 19.7px;
+        left: 112.5px;
+    }
+
+    .top-right {
+        height: 237.3px;
+        padding: 10.6px 19.7px 53.3px 19.7px;
+        left: 209.6px;
+    }
+
+    /*----------------------------------------------------*/
+    /*belief-content*/
+    .belief-content {
+        width: 100%;
+        height: 664px;
+        position: relative;
+    }
+
+    .belief-main {
+        width: 1024px;
+        height: 664px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .belief-image {
+        width: 500px;
+        height: 304.3px;
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        top: 200px;
+        left: 0px;
+    }
+
+    .belief-text1 {
+        width: 276px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 195px;
+        left: 53px;
+    }
+    
+    .belief-underline1 {
+        width: 276px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 186px;
+        left: 31px;
+    }
+    
+    .belief-text2 {
+        width: 216px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 220px;
+        left: 31px;
+    }
+    
+    .belief-underline2 {
+        width: 216px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 211px;
+        left: 31px;
+    }
+    
+    .belief-text3 {
+        width: 364px;
+        height: 135px;
+        font-size: 14px;
+        line-height: 36px;
+        position: relative;
+        top: 250px;
+        left: 31px;
+    }
+
+    /*----------------------------------------------------*/
+    /*treatment-content*/
+    .treatment-content {
+        width: 100%;
+        height: auto;
+        min-height: 2957px;
+        position: relative;
+        background-color: #F5FCF8;
+    }
+
+    .treatment-main {
+        width: 1024px;
+        height: auto;
+        min-height: 2957px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .treatment-title {
+        width: 96px;
+        height: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+        z-index: 4;
+    }
+
+    .treatment-underline {
+        width: 103px;
+        height: 10px;
+        background-color: #99E5A5;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+        top: 74.5px;
+    }
+
+    .treatment-consultation {
+        width: 390px;
+        height: 21px;
+        font-size: 14px;
+        margin: 0 auto;
+        position: relative;
+        top: 143px;
+    }
+
+    .disease {
+        width: 1024px;
+        height: 591px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 178px;
+    }
+
+    .disease-box {
+        width: 376px;
+        height: 587px;
+        border: 2px solid #C9C9C9;
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px 0;
+    }
+
+    .news-title {
+        width: 96px;
+        height: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 4;
+        top: 1443px;
+    }
+
+    .news-underline {
+        width: 103px;
+        height: 10px;
+        background-color: #99E5A5;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+        top: 1437.5px;
+    }
+
+    .news-lists {
+        width: 700px;
+        min-height: 580px;
+        position: relative;
+        top: 1504px;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 3px 6px 0 #D6D6D6;
+        margin: 0 auto;
+        padding-top: 30.5px;
+        margin-bottom: 112px;
+    }
+
+    .news {
+        width: 560px;
+        height: 107px;
+        border-bottom: 2px solid #E7E7E7;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .news-caption {
+        max-width: 334px;
+        min-height: 21px;
+        max-height: 48px;
+        font-size: 14px;
+    }
+
+    /*----------------------------------------------------*/
+    /*footer*/
+    footer {
+        width: 100%;
+        height: 1138.5px;
+    }
+
+    .footer-main {
+        width: 1024px;
+        height: 1138.5px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer-map {
+        width: 608px;
+        height: 440px;
+        margin: 100px 0 100px 0;
+    }
+
+    .footer-info {
+        width: 572px;
+        height: 398.5px;
+        margin: 0 0 100px 0;
+    }
+
+    .footer-logo {
+        width: 288px;
+        height: 80px;
+        margin: 0 0 0 34px;
+        background-image: url(../images/グループ\ 1@2x.png);
+        background-size: contain;
+    }
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+@media screen and (max-width:1023px) and (min-width:375px) {
+
+    /*body*/
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*----------------------------------------------------*/
+    /*header*/
+    header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .header-main {
+        width: 375px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+
+    .header-logo {
+        float: left;
+        width: 144.1px;
+        height: 40px;
+        margin: 20px 0 20px 10px;
+        background-image: url(../images/グループ\ 1.png);
+        background-size: contain;
+    }
+
+    .header-right {
+        width: 193.3px;
+        height: 40px;
+        margin: 20px 0 20px 0;
+        float: right;
+    }
+
+    .header-time {
+        display: none;
+    }
+    
+    .header-phone {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        float: right;
+    }
+    
+    .phone-logo {
+        width: 24px;
+        height: 24px;
+        margin: 8px 4px 0 0;
+    }
+    
+    .phone-number {
+        width: 171px;
+        height: 32px;
+        font-size: 23px;
+        color: #21A937;
+    }
+
+    /*----------------------------------------------------*/
+    /*main*/
+    /*top-content*/
+    .top-content {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-image {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+    }
+
+    .top-heading {
+        width: 255.5px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 71px;
+        left: 50px;
+        z-index: 2;
+    }
+
+    .top-left {
+        height: 15px;
+        padding: 10.6px 19.7px 10.6px 19.7px;
+        margin-top: 45px;
+    }
+
+    .top-right {
+        height: 15px;
+        padding: 10.6px 19.7px 10.6px 19.7px;
+    }
+
+    /*----------------------------------------------------*/
+    /*belief-content*/
+    .belief-content {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+    }
+
+    .belief-main {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .belief-image {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .belief-text1 {
+        width: 276px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 195px;
+        left: 53px;
+    }
+    
+    .belief-underline1 {
+        width: 276px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 186px;
+        left: 31px;
+    }
+    
+    .belief-text2 {
+        width: 216px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 220px;
+        left: 31px;
+    }
+    
+    .belief-underline2 {
+        width: 216px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 211px;
+        left: 31px;
+    }
+    
+    .belief-text3 {
+        width: 364px;
+        height: 135px;
+        font-size: 14px;
+        line-height: 36px;
+        position: relative;
+        top: 250px;
+        left: 31px;
+    }
+}
