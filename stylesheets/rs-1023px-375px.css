@@ -107,13 +107,13 @@
     /*belief-content*/
     .belief-content {
         width: 100%;
-        height: 1000px;
+        height: 1100px;
         position: relative;
     }
 
     .belief-main {
         width: 100%;
-        height: 1000px;
+        height: 1100px;
         position: relative;
         margin: 0 auto;
     }
@@ -211,5 +211,254 @@
         position: relative;
         z-index: 3;
         top: 74.5px;
+    }
+
+    .treatment-consultation {
+        width: 370px;
+        height: 21px;
+        font-size: 13px;
+        margin: 0 auto;
+        position: relative;
+        top: 143px;
+    }
+
+    .disease {
+        width: 100%;
+        height: 591px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 178px;
+    }
+
+    .disease-box {
+        width: 374px;
+        height: 587px;
+        border: 2px solid #C9C9C9;
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px 0;
+    }
+
+    .news-title {
+        width: 96px;
+        height: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 4;
+        top: 1443px;
+    }
+
+    .news-underline {
+        width: 103px;
+        height: 10px;
+        background-color: #99E5A5;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+        top: 1437.5px;
+    }
+
+    .news-lists {
+        width: 100%;
+        min-height: 580px;
+        position: relative;
+        top: 1504px;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 3px 6px 0 #D6D6D6;
+        margin: 0 auto;
+        padding-top: 30.5px;
+        margin-bottom: 112px;
+    }
+
+    .news {
+        width: 100%;
+        height: 107px;
+        border-bottom: 2px solid #E7E7E7;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .news-caption {
+        max-width: 334px;
+        min-height: 21px;
+        max-height: 63px;
+        font-size: 14px;
+    }
+
+    /*----------------------------------------------------*/
+    /*footer*/
+    footer {
+        width: 100%;
+        height: 1163px;
+    }
+
+    .footer-main {
+        width: 100%;
+        height: 1163px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer-map {
+        width: 100%;
+        height: 427px;
+        margin: 100px 0 50px 0;
+    }
+
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-info {
+        width: 100%;
+        height: 427px;
+        margin: 50px 0 100px 0;
+    }
+
+    .footer-logo {
+        width: 288px;
+        height: 80px;
+        margin: 0 auto;
+        background-image: url(../images/グループ\ 1@2x.png);
+        background-size: contain;
+    }
+
+    .footer-place {
+        width: 100%;
+        height: 23px;
+        font-size: 16px;
+        display: flex;
+        margin: 26px auto 28px;
+        justify-content: center;
+    }
+    
+    .footer-address {
+        margin-left: 13px;
+    }
+    
+    .footer-phone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-schedule {
+        width: 100%;
+        height: 182px;
+        border-top: 2px solid #E7E7E7;
+        border-bottom: 2px solid #E7E7E7;
+        margin: 29.5px 0 22.5px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .schedule-head {
+        width: 60px;
+        height: 182px;
+    }
+    
+    .schedule-date {
+        width: 56px;
+        height: 19px;
+        font-size: 14px;
+        padding: 3.5px 4px 72.5px 0;
+        margin-top: 19px;
+        border-right: 2px solid #E7E7E7;
+    }
+    
+    .schedule-close {
+        width: 42px;
+        height: 19px;
+        font-size: 14px;
+        padding: 5.5px 18px 4.5px 0;
+        margin-top: 20px;
+        margin-bottom: 19px;
+        border-right: 2px solid #E7E7E7;
+    }
+    
+    .schedule-detail {
+        width: 315px;
+        height: 182px;
+    }
+    
+    .detail-date {
+        width: 291px;
+        height: 85px;
+        margin: 22.5px 0 0 24px;
+        display: flex;
+    }
+    
+    .schedule-day {
+        position: relative;
+    }
+    
+    .schedule-mornig {
+        margin: 0 15px 0 26px;
+    }
+    
+    .day {
+        width: 35px;
+        height: 19px;
+        font-size: 11px;
+        position: relative;
+        z-index: 4;
+    }
+    
+    .day-underline {
+        width: 42px;
+        height: 4px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .line1 {
+        top: -8px;
+    }
+    
+    .line2 {
+        top: -22px;
+    }
+    
+    .line3 {
+        top: -8px;
+    }
+    
+    .morning {
+        width: 100px;
+        height: 19px;
+        font-size: 13px;
+    }
+    
+    .afternoon {
+        width: 108px;
+        height: 19px;
+        font-size: 13px;
+    }
+    
+    .middle {
+        margin: 14px 0 14px 0;
+    }
+    
+    .detail-close {
+        width: 63px;
+        height: 19px;
+        font-size: 12px;
+        margin: 32px 257px 23.5px 24px;
+    }
+    
+    .footer-copyright {
+        width: 263px;
+        height: 15px;
+        font-size: 11px;
+        float: right;
     }
 }
