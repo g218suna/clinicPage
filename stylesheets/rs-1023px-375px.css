@@ -1,0 +1,215 @@
+/*responsive*/
+/* 1023px ~ 375px */
+
+@media screen and (max-width:1023px) and (min-width:375px) {
+
+    /*body*/
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*----------------------------------------------------*/
+    /*header*/
+    header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .header-main {
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .header-logo {
+        float: left;
+        width: 144.1px;
+        height: 40px;
+        margin: 20px 0 20px 10px;
+        background-image: url(../images/グループ\ 1.png);
+        background-size: contain;
+    }
+
+    .header-right {
+        width: 193.3px;
+        height: 40px;
+        margin: 20px 0 20px 0;
+        float: right;
+    }
+
+    .header-time {
+        display: none;
+    }
+    
+    .header-phone {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        float: right;
+    }
+    
+    .phone-logo {
+        width: 24px;
+        height: 24px;
+        margin: 8px 4px 0 0;
+    }
+    
+    .phone-number {
+        width: 171px;
+        height: 32px;
+        font-size: 23px;
+        color: #21A937;
+    }
+
+    /*----------------------------------------------------*/
+    /*main*/
+    /*top-content*/
+    .top-content {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-image {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+    }
+
+    .top-heading {
+        width: 255.5px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 71px;
+        left: 50px;
+        z-index: 2;
+    }
+
+    .top-left {
+        height: 15px;
+        padding: 10.6px 19.7px 10.6px 19.7px;
+        margin-top: 45px;
+    }
+
+    .top-right {
+        height: 15px;
+        padding: 10.6px 19.7px 10.6px 19.7px;
+    }
+
+    /*----------------------------------------------------*/
+    /*belief-content*/
+    .belief-content {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+    }
+
+    .belief-main {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .belief-image {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .belief-text1 {
+        width: 276px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 135px;
+        margin: 0 auto;
+    }
+    
+    .belief-underline1 {
+        width: 276px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 126px;
+        margin: 0 auto;
+    }
+    
+    .belief-text2 {
+        width: 216px;
+        height: 32px;
+        font-size: 22px;
+        position: relative;
+        z-index: 4;
+        top: 160px;
+        margin: 0 auto;
+    }
+    
+    .belief-underline2 {
+        width: 216px;
+        height: 10px;
+        background-color: #99E5A5;
+        position: relative;
+        z-index: 3;
+        top: 151px;
+        margin: 0 auto;
+    }
+    
+    .belief-text3 {
+        width: 364px;
+        height: 135px;
+        font-size: 14px;
+        line-height: 36px;
+        position: relative;
+        top: 190px;
+        margin: 0 auto;
+    }
+
+    /*----------------------------------------------------*/
+    /*treatment-content*/
+    .treatment-content {
+        width: 100%;
+        height: auto;
+        min-height: 2957px;
+        position: relative;
+        background-color: #F5FCF8;
+    }
+
+    .treatment-main {
+        width: 100%;
+        height: auto;
+        min-height: 2957px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .treatment-title {
+        width: 96px;
+        height: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+        z-index: 4;
+    }
+
+    .treatment-underline {
+        width: 103px;
+        height: 10px;
+        background-color: #99E5A5;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+        top: 74.5px;
+    }
+}

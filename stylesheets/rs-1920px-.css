@@ -1,0 +1,60 @@
+/*responsive*/
+/* 1920px ~ */
+
+@media screen and (min-width:1920px) {
+
+    /*body*/
+    body {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    /*----------------------------------------------------*/
+    /*main*/
+    /*top-content*/
+    .top-content {
+        width: 100%;
+        height: 947px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-image {
+        width: 1920px;
+        height: 947px;
+        z-index: 1;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .top-heading {
+        width: 28px;
+        font-size: 28px;
+        display: flex;
+        flex-direction: row;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        -ms-writing-mode: vertical-rl;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 133px;
+        z-index: 2;
+    }
+
+    .top-left {
+        height: 479px;
+        padding: 20px 37px 66px 37px;
+        left: 211px;
+    }
+
+    .top-right {
+        height: 445px;
+        padding: 20px 37px 100px 37px;
+        left: 393px;
+    }
+}
+
