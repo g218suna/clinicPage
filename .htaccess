@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "IshiiClinic"
+AuthUserFile "/var/www/html/clinic/auth/.htpasswd"
+require valid-user
